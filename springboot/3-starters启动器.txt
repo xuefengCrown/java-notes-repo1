@@ -1,0 +1,5 @@
+
+https://docs.spring.io/spring-boot/docs/2.1.5.RELEASE/reference/htmlsingle/#using-boot-starter
+
+spring-boot-starter
+Spring Boot 将所有的功能场景都抽取出来，做成一个个的 starter（启动器）
