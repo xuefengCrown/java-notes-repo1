@@ -1,0 +1,4 @@
+
+1. 下载安装 node.js
+
+2. cmd:: > node -v

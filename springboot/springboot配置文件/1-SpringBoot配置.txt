@@ -1,0 +1,19 @@
+
+###配置文件，加载顺序和原理
+1. 类路径下的全局配置文件
+application.properties
+application.yml
+
+
+2. yml 语法
+	k:(空格)v
+	
+	当值是对象或map时
+	friends: {name: zs, age: 20}
+	
+	当值是数组 pets: [cat, dog, pig]
+	pets:
+	  - cat
+	  - dog
+	  - pig
+	  

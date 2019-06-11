@@ -1,0 +1,13 @@
+@AutoConfigurationPackage
+@Import({AutoConfigurationImportSelector.class})
+public @interface EnableAutoConfiguration {
+
+}
+
+将主配置类所在包及下面所有子包里面的所有组件扫描到Spring容器。
+
+@Import({AutoConfigurationImportSelector.class})
+Import给容器中导入组件
+会给容器中导入非常多的自动配置类; 就是给容器中导入这个场景需要的所有组件，并配置好这些组件。
+##自动配置类在 org.springframework.boot.autoconfigure 包下
+

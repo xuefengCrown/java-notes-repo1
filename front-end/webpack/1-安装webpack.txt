@@ -1,0 +1,26 @@
+
+1. 安装 webpack需要借助 npm（Node Package Manager），它是 node 包管理和分发的工具。
+我们通过 npm 可以很方便地下载 js 库，打包 js 文件。
+node.js 已经继承了 npm 工具，在命令提示符输入 npm -v 可查看当前 npm 版本。
+
+2. 设置包路径
+包路径就是 npm 从远程下载的 js 包所存放的路径。
+使用 npm config ls 查询路径
+
+## 修改路径
+npm config set prefix "F:\xuef\dev_softwares\node.js\npm_modules"
+npm config set cache "F:\xuef\dev_softwares\node.js\npm_cache"
+
+3. 安装 cnpm
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+cnpm -v
+
+4. 切换镜像
+nrm use taobao （注意，nrm也是个包，需要安装: npm install nrm -g）
+
+5. 安装 webpack （分为 本地安装和全局安装）
+cnpm install webpack@3.6.0 -g
+
+
+
